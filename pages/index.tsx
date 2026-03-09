@@ -81,7 +81,7 @@ const Home: NextPage<Props> = ({ initialItems }) => {
   return (
     <div>
       <Head>
-        <title>TODO application | Kinsta</title>
+        <title>TODO application | Sevalla</title>
         <meta name="description" content="Dead simple TODO application." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -112,13 +112,13 @@ const Home: NextPage<Props> = ({ initialItems }) => {
       <footer className="fixed bottom-8 left-1/2 -translate-x-1/2">
         Proudly hosted by {" "}
         <a
-          href="https://kinsta.com"
+          href="https://sevalla.com"
           target="_blank"
           rel="noreferrer noopener"
           style={{ color: kinstaColor }}
           className="hover:underline underline-offset-1"
         >
-          Kinsta
+          Sevalla
         </a>
       </footer>
     </div>
